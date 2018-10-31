@@ -12,6 +12,8 @@
 		FD7EA39D2189782D00C329B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7EA39B2189782D00C329B9 /* Main.storyboard */; };
 		FD7EA39F2189782E00C329B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD7EA39E2189782E00C329B9 /* Assets.xcassets */; };
 		FD7EA3A22189782E00C329B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7EA3A02189782E00C329B9 /* LaunchScreen.storyboard */; };
+		FD7EA3AB218978FB00C329B9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD7EA3AA218978FB00C329B9 /* MapKit.framework */; };
+		FD7EA3AD21897F9900C329B9 /* BusanAirData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7EA3AC21897F9900C329B9 /* BusanAirData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FD7EA39E2189782E00C329B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD7EA3A12189782E00C329B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD7EA3A32189782E00C329B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD7EA3AA218978FB00C329B9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FD7EA3AC21897F9900C329B9 /* BusanAirData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusanAirData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD7EA3AB218978FB00C329B9 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				FD7EA3962189782D00C329B9 /* BusanAirMap */,
 				FD7EA3952189782D00C329B9 /* Products */,
+				FD7EA3A9218978FB00C329B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +62,21 @@
 			children = (
 				FD7EA3972189782D00C329B9 /* AppDelegate.swift */,
 				FD7EA3992189782D00C329B9 /* ViewController.swift */,
+				FD7EA3AC21897F9900C329B9 /* BusanAirData.swift */,
 				FD7EA39B2189782D00C329B9 /* Main.storyboard */,
 				FD7EA39E2189782E00C329B9 /* Assets.xcassets */,
 				FD7EA3A02189782E00C329B9 /* LaunchScreen.storyboard */,
 				FD7EA3A32189782E00C329B9 /* Info.plist */,
 			);
 			path = BusanAirMap;
+			sourceTree = "<group>";
+		};
+		FD7EA3A9218978FB00C329B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD7EA3AA218978FB00C329B9 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD7EA3AD21897F9900C329B9 /* BusanAirData.swift in Sources */,
 				FD7EA39A2189782D00C329B9 /* ViewController.swift in Sources */,
 				FD7EA3982189782D00C329B9 /* AppDelegate.swift in Sources */,
 			);
